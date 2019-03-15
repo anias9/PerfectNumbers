@@ -15,7 +15,7 @@ namespace PerfectNumbers
         {
             Numbers.ReadCsvFile();
             Console.Title = "Szukam liczb doskonałych";
-            Console.SetCursorPosition(1, 3);
+            Console.SetCursorPosition(1, 3); 
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Szukam liczb doskonałych (ESC - Przerwij)");
 
