@@ -12,7 +12,7 @@ namespace PerfectNumbers
     class Numbers
     {
         public static StreamReader reader = new StreamReader(@"liczby.csv");
-        static List<int> numbers = new List<int>();
+        static List<int> numbers = new List<int>(); 
         public static int suma = 0, wiersz = 4, licznik = 0;
         static int rekord;
         static readonly object obj = new object(); 
