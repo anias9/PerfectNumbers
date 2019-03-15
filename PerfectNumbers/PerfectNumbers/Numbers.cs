@@ -15,7 +15,7 @@ namespace PerfectNumbers
         static List<int> numbers = new List<int>();
         public static int suma = 0, wiersz = 4, licznik = 0;
         static int rekord;
-        static readonly object obj = new object();
+        static readonly object obj = new object(); 
 
 
         public static void ReadCsvFile()
